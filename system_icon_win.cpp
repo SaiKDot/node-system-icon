@@ -291,7 +291,7 @@ std::vector<unsigned char> GetIcon(const std::string& name, IconSize size, UINT 
     }
   }
 
-  auto buffer = HIconToPNG(hIcon);
+//   auto buffer = HIconToPNG(hIcon);
   DestroyIcon(hIcon);
   return buffer;
 }
